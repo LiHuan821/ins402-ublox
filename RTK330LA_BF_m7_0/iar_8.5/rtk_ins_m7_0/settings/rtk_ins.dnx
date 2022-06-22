@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<settings>
+    <Stack>
+        <FillEnabled>0</FillEnabled>
+        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
+        <WarningThreshold>90</WarningThreshold>
+        <SpWarningsEnabled>1</SpWarningsEnabled>
+        <WarnLogOnly>1</WarnLogOnly>
+        <UseTrigger>1</UseTrigger>
+        <TriggerName>main</TriggerName>
+        <LimitSize>0</LimitSize>
+        <ByteLimit>50</ByteLimit>
+    </Stack>
+    <JLinkDriver>
+        <jlinkResetStyle>12</jlinkResetStyle>
+        <jlinkResetStrategy>1</jlinkResetStrategy>
+        <CStepIntDis>_ 0</CStepIntDis>
+        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+    </JLinkDriver>
+    <DebugChecksum>
+        <Checksum>3612162989</Checksum>
+    </DebugChecksum>
+    <Exceptions>
+        <StopOnUncaught>_ 0</StopOnUncaught>
+        <StopOnThrow>_ 0</StopOnThrow>
+    </Exceptions>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
+    <Disassembly>
+        <MixedMode>1</MixedMode>
+        <InstrCount>0</InstrCount>
+    </Disassembly>
+    <Trace1>
+        <Enabled>0</Enabled>
+        <ShowSource>1</ShowSource>
+    </Trace1>
+    <CodeCoverage>
+        <Enabled>0</Enabled>
+        <ShowSource>0</ShowSource>
+        <HideCovered>0</HideCovered>
+    </CodeCoverage>
+    <Interrupts>
+        <Enabled>1</Enabled>
+    </Interrupts>
+    <MemConfig>
+        <Base>1</Base>
+        <Manual>0</Manual>
+        <Ddf>1</Ddf>
+        <TypeViol>0</TypeViol>
+        <Stop>1</Stop>
+    </MemConfig>
+    <Simulator>
+        <Freq>10000000</Freq>
+        <FreqHi>0</FreqHi>
+        <MultiCoreRunAll>1</MultiCoreRunAll>
+    </Simulator>
+    <RecentFlashDownload>
+        <Path>E:\cypress\1030_hex_bin\RTK330LA\iar\rtk_ins_m7_0\Debug\Exe\rtk_ins.bin</Path>
+    </RecentFlashDownload>
+    <SWOTraceHWSettings>
+        <OverrideDefaultClocks>0</OverrideDefaultClocks>
+        <CpuClock>72000000</CpuClock>
+        <ClockAutoDetect>0</ClockAutoDetect>
+        <ClockWanted>2000000</ClockWanted>
+        <JtagSpeed>2000000</JtagSpeed>
+        <Prescaler>36</Prescaler>
+        <TimeStampPrescIndex>0</TimeStampPrescIndex>
+        <TimeStampPrescData>0</TimeStampPrescData>
+        <PcSampCYCTAP>1</PcSampCYCTAP>
+        <PcSampPOSTCNT>15</PcSampPOSTCNT>
+        <PcSampIndex>0</PcSampIndex>
+        <DataLogMode>0</DataLogMode>
+        <ITMportsEnable>0</ITMportsEnable>
+        <ITMportsTermIO>0</ITMportsTermIO>
+        <ITMportsLogFile>0</ITMportsLogFile>
+        <ITMlogFile>$PROJ_DIR$\ITM.log</ITMlogFile>
+    </SWOTraceHWSettings>
+    <PlDriver>
+        <FirstRun>0</FirstRun>
+        <MemConfigValue>C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\CONFIG\debugger\Cypress\CYT4BF_M7.ddf</MemConfigValue>
+    </PlDriver>
+    <Jet>
+        <JetConnSerialNo>85085</JetConnSerialNo>
+        <JetConnFoundProbes />
+        <DisableInterrupts>0</DisableInterrupts>
+        <LeaveRunning>0</LeaveRunning>
+        <MultiCoreRunAll>0</MultiCoreRunAll>
+    </Jet>
+    <ArmDriver>
+        <EnableCache>1</EnableCache>
+    </ArmDriver>
+    <DriverProfiling>
+        <Enabled>0</Enabled>
+        <Mode>3</Mode>
+        <Graph>0</Graph>
+        <Symbiont>0</Symbiont>
+        <Exclusions />
+    </DriverProfiling>
+    <CallStackLog>
+        <Enabled>0</Enabled>
+    </CallStackLog>
+    <CallStackStripe>
+        <ShowTiming>1</ShowTiming>
+    </CallStackStripe>
+    <Trace2>
+        <Enabled>0</Enabled>
+        <ShowSource>0</ShowSource>
+    </Trace2>
+    <SWOTraceWindow>
+        <PcSampling>0</PcSampling>
+        <InterruptLogs>0</InterruptLogs>
+        <ForcedTimeStamps>0</ForcedTimeStamps>
+        <EventCPI>0</EventCPI>
+        <EventEXC>0</EventEXC>
+        <EventFOLD>0</EventFOLD>
+        <EventLSU>0</EventLSU>
+        <EventSLEEP>0</EventSLEEP>
+    </SWOTraceWindow>
+    <PowerLog>
+        <Title_0>I0</Title_0>
+        <Symbol_0>0 4 0</Symbol_0>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <LiveEnabled>0</LiveEnabled>
+        <LiveFile>PowerLogLive.log</LiveFile>
+    </PowerLog>
+    <DataLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+    </DataLog>
+    <InterruptLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+        <SumSortOrder>0</SumSortOrder>
+    </InterruptLog>
+    <EventLog>
+        <Title_0>Ch3</Title_0>
+        <Symbol_0>0 0 1</Symbol_0>
+        <Title_1>Ch2</Title_1>
+        <Symbol_1>0 0 1</Symbol_1>
+        <Title_2>Ch1</Title_2>
+        <Symbol_2>0 0 1</Symbol_2>
+        <Title_3>Ch0</Title_3>
+        <Symbol_3>0 0 1</Symbol_3>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+        <SumSortOrder>0</SumSortOrder>
+    </EventLog>
+    <PowerProbe>
+        <Frequency>10000</Frequency>
+        <Probe0>I0</Probe0>
+        <ProbeSetup0>2 1 1 2 0 0</ProbeSetup0>
+    </PowerProbe>
+    <SWOManager>
+        <SamplingDivider>8192</SamplingDivider>
+        <OverrideClock>0</OverrideClock>
+        <CpuClock>544366966</CpuClock>
+        <SwoClock>1701602675</SwoClock>
+        <DataLogMode>0</DataLogMode>
+        <ItmPortsEnabled>63</ItmPortsEnabled>
+        <ItmTermIOPorts>1</ItmTermIOPorts>
+        <ItmLogPorts>0</ItmLogPorts>
+        <ItmLogFile>$PROJ_DIR$\ITM.log</ItmLogFile>
+        <PowerForcePC>1</PowerForcePC>
+        <PowerConnectPC>1</PowerConnectPC>
+    </SWOManager>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </LogFile>
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints2>
+        <Bp0>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\platform\CYT4BB\hal\sysclk\cy_sysclk.c}.2902.16" 0 0 1 "" 0 "" 0</Bp0>
+        <Bp1>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\platform\CYT4BB\hal\sysclk\cy_sysclk.c}.2900.5" 0 0 1 "" 0 "" 0</Bp1>
+        <Bp2>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\platform\CYT4BB\hal\sysclk\cy_sysclk.c}.2906.16" 0 0 1 "" 0 "" 0</Bp2>
+        <Bp3>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\platform\CYT4BB\hal\sysclk\cy_sysclk.c}.2900.5" 0 0 1 "" 0 "" 0</Bp3>
+        <Bp4>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\platform\driver\src\uart_isr.c}.0.1" 0 0 1 "" 0 "" 0</Bp4>
+        <Bp5>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\platform\driver\src\uart6_isr.c}.80.9" 0 0 1 "" 0 "" 0</Bp5>
+        <Bp6>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\platform\driver\src\uart6_isr.c}.176.5" 0 0 1 "" 0 "" 0</Bp6>
+        <Bp7>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\platform\driver\src\uart7_isr.c}.81.9" 0 0 1 "" 0 "" 0</Bp7>
+        <Bp8>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\app\taskRTK.c}.320.13" 0 0 1 "" 0 "" 0</Bp8>
+        <Bp9>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\ins\src\lcinsupdate.c}.758.2" 0 0 1 "" 0 "" 0</Bp9>
+        <Bp10>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\platform\driver\src\data_flash.c}.67.18" 0 0 1 "" 0 "" 0</Bp10>
+        <Bp11>_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\..\platform\driver\src\data_flash.c}.78.5" 0 0 1 "" 0 "" 0</Bp11>
+        <Count>12</Count>
+    </Breakpoints2>
+    <Aliases>
+        <A0>_ "C:\Users\yumingjin\Desktop\recode\RTK330LA - new\RTK330LA_BF\gnss\src\RingBuffer.c" ""</A0>
+        <A1>_ "C:\Users\yumingjin\Desktop\recode\RTK330LA - new\RTK330LA_BF\platform\CYT4BF\cmsis\include\core_cm7.h" ""</A1>
+        <A2>_ "C:\Users\yumingjin\Desktop\recode\RTK330LA - new\RTK330LA_BF\platform\CYT4BF\hal_common\gpio\cy_gpio.c" ""</A2>
+        <A3>_ "C:\Users\yumingjin\Desktop\recode\RTK330LA - new\RTK330LA_BF\platform\CYT4BF\hal_common\gpio\cy_gpio.h" ""</A3>
+        <A4>_ "C:\Users\yumingjin\Desktop\recode\RTK330LA - new\RTK330LA_BF\platform\CYT4BF\hal_common\scb\cy_scb_common.c" ""</A4>
+        <A5>_ "C:\Users\yumingjin\Desktop\recode\RTK330LA - new\RTK330LA_BF\platform\CYT4BF\hal_common\scb\cy_scb_common.h" ""</A5>
+        <A6>_ "C:\Users\yumingjin\Desktop\recode\RTK330LA - new\RTK330LA_BF\platform\CYT4BF\hal_common\scb\cy_scb_uart.c" ""</A6>
+        <A7>_ "C:\Users\yumingjin\Desktop\recode\RTK330LA - new\RTK330LA_BF\platform\CYT4BF\hal_common\scb\cy_scb_uart.h" ""</A7>
+        <A8>_ "C:\Users\yumingjin\Desktop\recode\RTK330LA - new\RTK330LA_BF\platform\CYT4BF\hal_common\sysint\cy_sysint.c" ""</A8>
+        <A9>_ "C:\Users\yumingjin\Desktop\recode\RTK330LA - new\RTK330LA_BF\platform\CYT4BF\hal_common\syslib\cy_syslib.c" ""</A9>
+        <A10>_ "C:\Users\yumingjin\Desktop\recode\RTK330LA - new\RTK330LA_BF\platform\CYT4BF\hal_common\syslib\iar\cy_syslib_iar.s" ""</A10>
+        <A11>_ "C:\Users\yumingjin\Desktop\recode\RTK330LA - new\RTK330LA_BF\platform\CYT4BF\hal_common\systick\cy_systick.c" ""</A11>
+        <A12>_ "C:\Users\yumingjin\Desktop\recode\RTK330LA - new\RTK330LA_BF\platform\CYT4BF\hal_drivers\sysclk\cy_sysclk.c" ""</A12>
+        <A13>_ "C:\Users\yumingjin\Desktop\recode\RTK330LA - new\RTK330LA_BF\platform\CYT4BF\hal_drivers\sysclk\cy_sysclk.h" ""</A13>
+        <A14>_ "C:\Users\yumingjin\Desktop\recode\RTK330LA - new\RTK330LA_BF\platform\CYT4BF\interrupts\cy_interrupt_map.c" ""</A14>
+        <A15>_ "C:\Users\yumingjin\Desktop\recode\RTK330LA - new\RTK330LA_BF\platform\CYT4BF\startup\src\startup.c" ""</A15>
+        <A16>_ "C:\Users\yumingjin\Desktop\recode\RTK330LA - new\RTK330LA_BF\platform\CYT4BF\startup\src\startup_cm7.s" ""</A16>
+        <A17>_ "C:\Users\yumingjin\Desktop\recode\RTK330LA - new\RTK330LA_BF\platform\CYT4BF\system\src\system_tviibh8m_cm7.c" ""</A17>
+        <A18>_ "C:\Users\yumingjin\Desktop\recode\RTK330LA - new\RTK330LA_BF\platform\driver\src\led.c" ""</A18>
+        <A19>_ "C:\Users\yumingjin\Desktop\recode\RTK330LA - new\RTK330LA_BF\platform\driver\src\uart7_isr.c" ""</A19>
+        <Count>20</Count>
+        <SuppressDialog>1</SuppressDialog>
+    </Aliases>
+</settings>

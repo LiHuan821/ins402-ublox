@@ -1,0 +1,1366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>3079151782</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\gnss\src\taskRTK.c</file>
+            <file>$PROJ_DIR$\..\..\app\main_cm7_0.c</file>
+            <file>$PROJ_DIR$\..\..\gnss\src\taskGnssDataAcq.c</file>
+            <file>$PROJ_DIR$\..\..\platform\cypress_sdk\power\cy_power.c</file>
+            <file>$PROJ_DIR$\..\..\platform\cypress_sdk\sw_timer\cy_sw_tmr.c</file>
+            <file>$PROJ_DIR$\..\..\platform\cypress_sdk\flash\cy_mw_flash.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_sysreset.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_ipc_pipe.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_fr_ccal_init.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\sta9100_control.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_fr_ccal_tx_handler.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_smif.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_scb_i2c.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_evtgen.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_fr_ccal_timer_service.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_fr_ccal_tx_handler.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_mdma.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_crypto_config.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_scb_common.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_interrupt_map.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_mpu.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_interrupt_map.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_syslib_iar.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_trigmux.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_cm7.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_sysreghc.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_fr_api_interrupt_service.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_tcpwm.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_i2s.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_mdma.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_fr_api_control_service.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\sta9100_control.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\utils.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_fr_api_control_service.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\edd_rx.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_pdma.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_syspm.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_scb_ezi2c.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_fr_api_tx_handler.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_tviibh8m_cm7.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_ipc_pipe.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_sysint.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\edd_tx.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\nav_math.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_lvd.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_scb_uart.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_adc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_smif.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_scb_spi.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_fr_api_timer_service.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_canfd.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_sd_host.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_fr_ccal_interrupt_service.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\utils.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\m7_ipc.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_cpu.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_ipc_drv.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_power.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_cpu.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_fr_ccal_status_service.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_syswdt.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_ethif.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_mw_flash.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_prot.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_scb_common.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\user_gpio.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_tcpwm_sr.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_fr_ccal_rx_handler.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_srom.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_fr_api_time_service.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_evtgen.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_trigmux.o</file>
+            <file>$PROJ_DIR$\Debug\Exe\rtk.hex</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_smif_memslot.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_power.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_tcpwm_quaddec.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_lin.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_mw_flash.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_gpio.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_sysreghc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_fr_api_tx_handler.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_fr_ccal_time_service.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\main_cm7_0.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\crc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_tcpwm_pwm.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_fr_api_timer_service.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_adc.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_syslib.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_scb_i2c.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_srom.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\edd.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\nav_math.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_sysrtc.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_sysrtc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\user_gpio.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_fr_ccal_control_service.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_sw_tmr.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_fr_api_status_service.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_fr_api_init.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_systick.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_sd_host.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_mcwdt.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main_cm7_0.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_smif_memslot.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_syslib.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_sysclk.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_fr_api_status_service.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_smartio.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_lvd.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\crc.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_fr_ccal_timer_service.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_syspm.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_fr_api_init.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\edd.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\crc16.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_fr_ccal_control_service.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_fr_ccal_time_service.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_crypto_config.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_tcpwm_counter.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_ipc_sema.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_tviibh8m_cm7.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_fr_api_time_service.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_sysflt.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_gpio.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_scb_spi.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\taskRTK.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_tcpwm.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\edd_tx.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_prot.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_fr_api_interrupt_service.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\time_ref.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\rtk.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_mcwdt.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\taskRTK.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_flash.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_tcpwm_pwm.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_syswdt.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\m7_ipc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_sw_tmr.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_fr_ccal_init.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\edd_rx.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_ethif.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_fr_api_rx_handler.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_flash.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_tcpwm_sr.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_mpu.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_i2s.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_sysint.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_scb_uart.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\taskGnssDataAcq.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_fr_api_rx_handler.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_lin.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_fr_ccal_interrupt_service.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\time_ref.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_fr_ccal_status_service.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_tcpwm_counter.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_canfd.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\taskGnssDataAcq.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_pdma.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_sysreset.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\crc16.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_smartio.o</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\ipc\cy_ipc_pipe.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\lvd\cy_lvd.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\dma\cy_mdma.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\evtgen\cy_evtgen.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\lin\cy_lin.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\mpu\cy_mpu.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\mcwdt\cy_mcwdt.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\prot\cy_prot.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\scb\cy_scb_common.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\ipc\cy_ipc_drv.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\dma\cy_pdma.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\gpio\cy_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\flash\cy_flash.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\crypto\cy_crypto_config.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\ipc\cy_ipc_sema.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\adc\cy_adc.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\canfd\cy_canfd.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\syslib\cy_syslib.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\sysrtc\cy_sysrtc.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\scb\cy_scb_spi.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\sysflt\cy_sysflt.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\syspm\cy_syspm.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\scb\cy_scb_ezi2c.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\syswdt\cy_syswdt.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\tcpwm\cy_tcpwm.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\sysint\cy_sysint.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\systick\cy_systick.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\srom\cy_srom.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\scb\cy_scb_i2c.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\scb\cy_scb_uart.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\sysreset\cy_sysreset.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\smartio\cy_smartio.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\syslib\iar\cy_syslib_iar.s</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\tcpwm\cy_tcpwm_pwm.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\tcpwm\cy_tcpwm_quaddec.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\cpu\cy_cpu.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\ethernet\cy_ethif.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\tcpwm\cy_tcpwm_sr.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\tcpwm\cy_tcpwm_counter.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\ethernet\edd_rx.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\trigmux\cy_trigmux.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\audioss\cy_i2s.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\ethernet\edd.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\flexray\ccal\cy_fr_ccal_rx_handler.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\flexray\api\cy_fr_api_time_service.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\flexray\api\cy_fr_api_init.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\flexray\api\cy_fr_api_interrupt_service.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\flexray\api\cy_fr_api_status_service.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\flexray\api\cy_fr_api_tx_handler.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\ethernet\edd_tx.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\flexray\api\cy_fr_api_rx_handler.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\flexray\ccal\cy_fr_ccal_interrupt_service.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\flexray\ccal\cy_fr_ccal_status_service.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\flexray\api\cy_fr_api_control_service.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\flexray\ccal\cy_fr_ccal_control_service.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\flexray\ccal\cy_fr_ccal_init.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\flexray\api\cy_fr_api_timer_service.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\smif\cy_smif.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\sysclk\cy_sysclk.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\flexray\ccal\cy_fr_ccal_tx_handler.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\system\src\system_tviibh8m_cm7.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\sd_host\cy_sd_host.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\smif\cy_smif_memslot.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\interrupts\cy_interrupt_map.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\startup\src\startup.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\sysreghc\cy_sysreghc.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\flexray\ccal\cy_fr_ccal_timer_service.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\flexray\ccal\cy_fr_ccal_time_service.c</file>
+            <file>$PROJ_DIR$\..\..\platform\CYT4BF\startup\src\startup_cm7.s</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_systick.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_ipc_sema.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_scb_ezi2c.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_sysclk.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_ipc_drv.o</file>
+            <file>$PROJ_DIR$\..\..\platform\utility\src\utils.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_fr_ccal_rx_handler.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_sysflt.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\cy_tcpwm_quaddec.xcl</file>
+            <file>$PROJ_DIR$\..\..\platform\utility\src\crc16.c</file>
+            <file>$PROJ_DIR$\..\..\platform\utility\src\nav_math.c</file>
+            <file>$PROJ_DIR$\..\..\platform\gpio\user_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\platform\utility\src\crc.c</file>
+            <file>$PROJ_DIR$\..\..\platform\driver\src\m7_ipc.c</file>
+            <file>$PROJ_DIR$\..\..\platform\driver\src\uart.c</file>
+            <file>$PROJ_DIR$\..\..\platform\sta9100\sta9100_control.c</file>
+            <file>$PROJ_DIR$\..\..\platform\driver\src\time_ref.c</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 75</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\gnss\src\taskRTK.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 136</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 128</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\app\main_cm7_0.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 105</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\gnss\src\taskGnssDataAcq.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 153</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 161</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\cypress_sdk\power\cy_power.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 77</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 60</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\cypress_sdk\sw_timer\cy_sw_tmr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 99</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 141</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\cypress_sdk\flash\cy_mw_flash.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 80</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 65</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\ipc\cy_ipc_pipe.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 7</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\lvd\cy_lvd.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 111</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 46</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\dma\cy_mdma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 17</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\evtgen\cy_evtgen.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 13</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 73</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\lin\cy_lin.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 155</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 79</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\mpu\cy_mpu.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 148</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 21</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\mcwdt\cy_mcwdt.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 104</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 135</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\prot\cy_prot.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 131</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\scb\cy_scb_common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 67</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 19</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\ipc\cy_ipc_drv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 239</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 59</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\dma\cy_pdma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 162</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\gpio\cy_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 126</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\flash\cy_flash.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 137</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 146</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\crypto\cy_crypto_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 120</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 18</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\ipc\cy_ipc_sema.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 236</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 122</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\adc\cy_adc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 48</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 89</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\canfd\cy_canfd.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 53</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 160</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\syslib\cy_syslib.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 107</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 90</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\sysrtc\cy_sysrtc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 96</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 95</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\scb\cy_scb_spi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 51</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 127</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\sysflt\cy_sysflt.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 125</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 242</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\syspm\cy_syspm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 114</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 37</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\scb\cy_scb_ezi2c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 237</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 38</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\syswdt\cy_syswdt.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 63</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 139</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\tcpwm\cy_tcpwm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 129</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\sysint\cy_sysint.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 43</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 151</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\systick\cy_systick.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 235</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 102</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\srom\cy_srom.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 71</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\scb\cy_scb_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 91</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 12</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\scb\cy_scb_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 47</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 152</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\sysreset\cy_sysreset.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 163</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\smartio\cy_smartio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 165</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 110</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\syslib\iar\cy_syslib_iar.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 23</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\tcpwm\cy_tcpwm_pwm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 87</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 138</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\tcpwm\cy_tcpwm_quaddec.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 78</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 243</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\cpu\cy_cpu.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 61</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\ethernet\cy_ethif.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 144</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 64</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\tcpwm\cy_tcpwm_sr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 69</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 147</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\tcpwm\cy_tcpwm_counter.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 159</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 121</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\ethernet\edd_rx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 143</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 35</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_common\trigmux\cy_trigmux.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 74</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 24</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\audioss\cy_i2s.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 29</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 150</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\ethernet\edd.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 116</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 93</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\flexray\ccal\cy_fr_ccal_rx_handler.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 70</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 241</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\flexray\api\cy_fr_api_time_service.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 72</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 124</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\flexray\api\cy_fr_api_init.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 101</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 115</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\flexray\api\cy_fr_api_interrupt_service.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 132</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 27</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\flexray\api\cy_fr_api_status_service.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 100</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 109</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\flexray\api\cy_fr_api_tx_handler.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 39</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 83</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\ethernet\edd_tx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 130</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\flexray\api\cy_fr_api_rx_handler.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 154</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 145</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\flexray\ccal\cy_fr_ccal_interrupt_service.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 156</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 55</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\flexray\ccal\cy_fr_ccal_status_service.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 158</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\flexray\api\cy_fr_api_control_service.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 34</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 31</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\flexray\ccal\cy_fr_ccal_control_service.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 98</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 118</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\flexray\ccal\cy_fr_ccal_init.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 142</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 8</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\flexray\api\cy_fr_api_timer_service.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 88</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 52</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\smif\cy_smif.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 49</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 11</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\sysclk\cy_sysclk.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 238</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 108</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\flexray\ccal\cy_fr_ccal_tx_handler.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 16</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 10</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\system\src\system_tviibh8m_cm7.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 40</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 123</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\sd_host\cy_sd_host.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 103</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\smif\cy_smif_memslot.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 76</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 106</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\interrupts\cy_interrupt_map.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 22</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 20</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\startup\src\startup.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\sysreghc\cy_sysreghc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\flexray\ccal\cy_fr_ccal_timer_service.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 15</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 113</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\hal_drivers\flexray\ccal\cy_fr_ccal_time_service.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 119</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\CYT4BF\startup\src\startup_cm7.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 25</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\utility\src\utils.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 33</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 56</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\utility\src\crc16.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 117</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 164</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\utility\src\nav_math.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 94</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 45</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\gpio\user_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 68</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 97</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\utility\src\crc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 112</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\driver\src\m7_ipc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 140</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 57</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\driver\src\uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 14</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 149</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\sta9100\sta9100_control.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 32</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 9</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\platform\driver\src\time_ref.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 133</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 157</file>
+                </tool>
+            </outputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs />
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>[REBUILD_ALL]</name>
+        </forcedrebuild>
+    </configuration>
+</project>

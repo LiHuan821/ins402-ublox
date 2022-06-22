@@ -1,0 +1,90 @@
+{
+    "version": "2.0.5",
+	"userPacketsTypeList": ["S2","GT"],
+	"userOutputPackets": [
+        {
+            "name": "S2",
+            "isList": 0,
+            "payload": [
+                {
+                    "type": "uint16",
+                    "name": "GPS_Week",
+                    "unit": "",
+                    "format": ""
+                },
+                {
+                    "type": "uint32",
+                    "name": "GPS_TimeofWeek",
+                    "unit": "s",
+                    "format": "10.4f"
+                },
+                {
+                    "type": "float",
+                    "name": "x_accel",
+                    "unit": "m/s^2",
+                    "format": "14.10f"
+                },
+                {
+                    "type": "float",
+                    "name": "y_accel",
+                    "unit": "m/s^2",
+                    "format": "14.10f"
+                },
+                {
+                    "type": "float",
+                    "name": "z_accel",
+                    "unit": "m/s^2",
+                    "format": "14.10f"
+                },
+                {
+                    "type": "float",
+                    "name": "x_rate",
+                    "unit": "deg/s",
+                    "format": "14.10f"
+                },
+                {
+                    "type": "float",
+                    "name": "y_rate",
+                    "unit": "deg/s",
+                    "format": "14.10f"
+                },
+                {
+                    "type": "float",
+                    "name": "z_rate",
+                    "unit": "deg/s",
+                    "format": "14.10f"
+                },
+                {
+                    "type": "float",
+                    "name": "temp",
+                    "unit": "°",
+                    "format": "8.3f"
+                },
+                {
+                    "type": "uint32",
+                    "name": "status",
+                    "unit": "",
+                    "format": ""
+                }
+			]
+		},
+		{
+            "name": "GT",
+            "isList": 0,
+            "payload": [
+                {
+                    "type": "uint32",
+                    "name": "time_now",
+                    "unit": "",
+                    "format": ""
+                },
+                {
+                    "type": "uint16",
+                    "name": "week",
+                    "unit": "s",
+                    "format": ""
+                }
+            ]
+        }
+	]
+}

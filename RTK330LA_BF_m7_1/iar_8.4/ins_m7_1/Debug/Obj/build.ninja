@@ -1,0 +1,142 @@
+#Generating source browse information for project ins
+
+
+#Abbreviations
+cc = D$:\software\IAR\common\bin\SourceIndexer.exe
+ll = D$:\software\IAR\common\bin\PbdLink.exe
+bd = D$:\software\IAR\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build main_cm7_1.pbi : index main_cm7_1.xcl
+build taskINS.pbi : index taskINS.xcl
+build fw_ins.pbi : index fw_ins.xcl
+build car_data.pbi : index car_data.xcl
+build eeprom.pbi : index eeprom.xcl
+build eth_process.pbi : index eth_process.xcl
+build gnss.pbi : index gnss.xcl
+build ublox_decoder.pbi : index ublox_decoder.xcl
+build Imu330Eth.pbi : index Imu330Eth.xcl
+build imu330za.pbi : index imu330za.xcl
+build rs232.pbi : index rs232.xcl
+build sta9100_control.pbi : index sta9100_control.xcl
+build sta9100_upgrade.pbi : index sta9100_upgrade.xcl
+build rtkcmn.pbi : index rtkcmn.xcl
+build watchdog.pbi : index watchdog.xcl
+build user_config.pbi : index user_config.xcl
+build maintain_ins.pbi : index maintain_ins.xcl
+build run_status.pbi : index run_status.xcl
+build ucb_packet.pbi : index ucb_packet.xcl
+build cy_mw_flash.pbi : index cy_mw_flash.xcl
+build cy_power.pbi : index cy_power.xcl
+build cy_sw_tmr.pbi : index cy_sw_tmr.xcl
+build cy_adc.pbi : index cy_adc.xcl
+build cy_canfd.pbi : index cy_canfd.xcl
+build cy_crypto_config.pbi : index cy_crypto_config.xcl
+build cy_mdma.pbi : index cy_mdma.xcl
+build cy_pdma.pbi : index cy_pdma.xcl
+build cy_evtgen.pbi : index cy_evtgen.xcl
+build cy_flash.pbi : index cy_flash.xcl
+build cy_gpio.pbi : index cy_gpio.xcl
+build cy_ipc_drv.pbi : index cy_ipc_drv.xcl
+build cy_ipc_pipe.pbi : index cy_ipc_pipe.xcl
+build cy_ipc_sema.pbi : index cy_ipc_sema.xcl
+build cy_lin.pbi : index cy_lin.xcl
+build cy_lvd.pbi : index cy_lvd.xcl
+build cy_mcwdt.pbi : index cy_mcwdt.xcl
+build cy_mpu.pbi : index cy_mpu.xcl
+build cy_prot.pbi : index cy_prot.xcl
+build cy_scb_common.pbi : index cy_scb_common.xcl
+build cy_scb_ezi2c.pbi : index cy_scb_ezi2c.xcl
+build cy_scb_i2c.pbi : index cy_scb_i2c.xcl
+build cy_scb_spi.pbi : index cy_scb_spi.xcl
+build cy_scb_uart.pbi : index cy_scb_uart.xcl
+build cy_smartio.pbi : index cy_smartio.xcl
+build cy_srom.pbi : index cy_srom.xcl
+build cy_sysflt.pbi : index cy_sysflt.xcl
+build cy_sysint.pbi : index cy_sysint.xcl
+build cy_syslib.pbi : index cy_syslib.xcl
+build cy_syspm.pbi : index cy_syspm.xcl
+build cy_sysreset.pbi : index cy_sysreset.xcl
+build cy_sysrtc.pbi : index cy_sysrtc.xcl
+build cy_systick.pbi : index cy_systick.xcl
+build cy_syswdt.pbi : index cy_syswdt.xcl
+build cy_tcpwm.pbi : index cy_tcpwm.xcl
+build cy_tcpwm_counter.pbi : index cy_tcpwm_counter.xcl
+build cy_tcpwm_pwm.pbi : index cy_tcpwm_pwm.xcl
+build cy_tcpwm_quaddec.pbi : index cy_tcpwm_quaddec.xcl
+build cy_tcpwm_sr.pbi : index cy_tcpwm_sr.xcl
+build cy_trigmux.pbi : index cy_trigmux.xcl
+build cy_i2s.pbi : index cy_i2s.xcl
+build cy_cpu.pbi : index cy_cpu.xcl
+build cy_ethif.pbi : index cy_ethif.xcl
+build edd.pbi : index edd.xcl
+build edd_rx.pbi : index edd_rx.xcl
+build edd_tx.pbi : index edd_tx.xcl
+build cy_fr_api_control_service.pbi : index cy_fr_api_control_service.xcl
+build cy_fr_api_init.pbi : index cy_fr_api_init.xcl
+build cy_fr_api_interrupt_service.pbi : index cy_fr_api_interrupt_service.xcl
+build cy_fr_api_rx_handler.pbi : index cy_fr_api_rx_handler.xcl
+build cy_fr_api_status_service.pbi : index cy_fr_api_status_service.xcl
+build cy_fr_api_time_service.pbi : index cy_fr_api_time_service.xcl
+build cy_fr_api_timer_service.pbi : index cy_fr_api_timer_service.xcl
+build cy_fr_api_tx_handler.pbi : index cy_fr_api_tx_handler.xcl
+build cy_fr_ccal_control_service.pbi : index cy_fr_ccal_control_service.xcl
+build cy_fr_ccal_init.pbi : index cy_fr_ccal_init.xcl
+build cy_fr_ccal_interrupt_service.pbi : index cy_fr_ccal_interrupt_service.xcl
+build cy_fr_ccal_rx_handler.pbi : index cy_fr_ccal_rx_handler.xcl
+build cy_fr_ccal_status_service.pbi : index cy_fr_ccal_status_service.xcl
+build cy_fr_ccal_time_service.pbi : index cy_fr_ccal_time_service.xcl
+build cy_fr_ccal_timer_service.pbi : index cy_fr_ccal_timer_service.xcl
+build cy_fr_ccal_tx_handler.pbi : index cy_fr_ccal_tx_handler.xcl
+build cy_sd_host.pbi : index cy_sd_host.xcl
+build cy_smif.pbi : index cy_smif.xcl
+build cy_smif_memslot.pbi : index cy_smif_memslot.xcl
+build cy_sysclk.pbi : index cy_sysclk.xcl
+build cy_sysreghc.pbi : index cy_sysreghc.xcl
+build cy_interrupt_map.pbi : index cy_interrupt_map.xcl
+build startup.pbi : index startup.xcl
+build system_tviibh8m_cm7.pbi : index system_tviibh8m_cm7.xcl
+build can.pbi : index can.xcl
+build ethernet.pbi : index ethernet.xcl
+build m7_ipc.pbi : index m7_ipc.xcl
+build mcu_temperature.pbi : index mcu_temperature.xcl
+build timer.pbi : index timer.xcl
+build uart.pbi : index uart.xcl
+build fd_adc.pbi : index fd_adc.xcl
+build fd_clock.pbi : index fd_clock.xcl
+build fd_flash.pbi : index fd_flash.xcl
+build fd_power.pbi : index fd_power.xcl
+build fd_ram.pbi : index fd_ram.xcl
+build fd_wdg.pbi : index fd_wdg.xcl
+build crc.pbi : index crc.xcl
+build crc16.pbi : index crc16.xcl
+build nav_math.pbi : index nav_math.xcl
+build utils.pbi : index utils.xcl
+build ins_part0.pbi : link main_cm7_1.pbi taskINS.pbi fw_ins.pbi car_data.pbi eeprom.pbi eth_process.pbi gnss.pbi ublox_decoder.pbi Imu330Eth.pbi imu330za.pbi
+build ins_part1.pbi : link rs232.pbi sta9100_control.pbi sta9100_upgrade.pbi rtkcmn.pbi watchdog.pbi user_config.pbi maintain_ins.pbi run_status.pbi ucb_packet.pbi cy_mw_flash.pbi
+build ins_part2.pbi : link cy_power.pbi cy_sw_tmr.pbi cy_adc.pbi cy_canfd.pbi cy_crypto_config.pbi cy_mdma.pbi cy_pdma.pbi cy_evtgen.pbi cy_flash.pbi cy_gpio.pbi
+build ins_part3.pbi : link cy_ipc_drv.pbi cy_ipc_pipe.pbi cy_ipc_sema.pbi cy_lin.pbi cy_lvd.pbi cy_mcwdt.pbi cy_mpu.pbi cy_prot.pbi cy_scb_common.pbi cy_scb_ezi2c.pbi
+build ins_part4.pbi : link cy_scb_i2c.pbi cy_scb_spi.pbi cy_scb_uart.pbi cy_smartio.pbi cy_srom.pbi cy_sysflt.pbi cy_sysint.pbi cy_syslib.pbi cy_syspm.pbi cy_sysreset.pbi
+build ins_part5.pbi : link cy_sysrtc.pbi cy_systick.pbi cy_syswdt.pbi cy_tcpwm.pbi cy_tcpwm_counter.pbi cy_tcpwm_pwm.pbi cy_tcpwm_quaddec.pbi cy_tcpwm_sr.pbi cy_trigmux.pbi cy_i2s.pbi
+build ins_part6.pbi : link cy_cpu.pbi cy_ethif.pbi edd.pbi edd_rx.pbi edd_tx.pbi cy_fr_api_control_service.pbi cy_fr_api_init.pbi cy_fr_api_interrupt_service.pbi cy_fr_api_rx_handler.pbi cy_fr_api_status_service.pbi
+build ins_part7.pbi : link cy_fr_api_time_service.pbi cy_fr_api_timer_service.pbi cy_fr_api_tx_handler.pbi cy_fr_ccal_control_service.pbi cy_fr_ccal_init.pbi cy_fr_ccal_interrupt_service.pbi cy_fr_ccal_rx_handler.pbi cy_fr_ccal_status_service.pbi cy_fr_ccal_time_service.pbi cy_fr_ccal_timer_service.pbi
+build ins_part8.pbi : link cy_fr_ccal_tx_handler.pbi cy_sd_host.pbi cy_smif.pbi cy_smif_memslot.pbi cy_sysclk.pbi cy_sysreghc.pbi cy_interrupt_map.pbi startup.pbi system_tviibh8m_cm7.pbi can.pbi
+build ins_part9.pbi : link ethernet.pbi m7_ipc.pbi mcu_temperature.pbi timer.pbi uart.pbi fd_adc.pbi fd_clock.pbi fd_flash.pbi fd_power.pbi fd_ram.pbi
+build ins_part10.pbi : link fd_wdg.pbi crc.pbi crc16.pbi nav_math.pbi utils.pbi
+build ins.pbd : link ins_part0.pbi ins_part1.pbi ins_part2.pbi ins_part3.pbi ins_part4.pbi ins_part5.pbi ins_part6.pbi ins_part7.pbi ins_part8.pbi ins_part9.pbi ins_part10.pbi
+build ins.pbw : browsedata ins.pbd
+
+

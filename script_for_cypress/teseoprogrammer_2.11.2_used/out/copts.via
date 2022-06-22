@@ -1,0 +1,3 @@
+-c -std=c99 -O2
+-DWINDOWS
+-IE:/st_programmer/bak/st_upgrade_tool/teseoprogrammer_2.11.2_used/include/ -IE:/st_programmer/bak/st_upgrade_tool/teseoprogrammer_2.11.2_used/src -IE:/st_programmer/bak/st_upgrade_tool/teseoprogrammer_2.11.2_used/src/teseo2 -IE:/st_programmer/bak/st_upgrade_tool/teseoprogrammer_2.11.2_used/src/teseo3 -IE:/st_programmer/bak/st_upgrade_tool/teseoprogrammer_2.11.2_used/src/teseo5

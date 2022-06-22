@@ -1,0 +1,31 @@
+{
+  "version": "0.2.1",
+  "configurations": [
+
+
+    {
+      "name": "Debug J-Link",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "C:/Users/daichenghe/Desktop/ls/RTK330LA_LIB_bak/RTK330LA_BF_m7_0/iar_8.4/rtk_m7_0/Debug/Exe/rtk.hex",
+      "stopAtEntry": true,
+      "cwd": "${workspaceRoot}",
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:/Users/daichenghe/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gdb.exe",
+      "debugServerPath": "C:/Program Files (x86)/SEGGER/JLink/JLinkGDBServerCL.exe",
+      "debugServerArgs": "-if swd -singlerun -strict -endian little -speed auto -port 3333 -device CYT4BFBCHD_M7_0 -vd -strict -halt",
+      "serverStarted": "Connected\\ to\\ target",
+      "serverLaunchTimeout": 5000,
+      "filterStderr": false,
+      "filterStdout": true,
+      "setupCommands": [
+        {"text": "target remote localhost:3333"},
+        {"text": "monitor flash breakpoints = 1"},
+        {"text": "monitor flash download = 1"},
+        {"text": "load C:/Users/daichenghe/Desktop/ls/RTK330LA_LIB_bak/RTK330LA_BF_m7_0/iar_8.4/rtk_m7_0/Debug/Exe/rtk.hex"},
+        {"text": "monitor reset 1"}
+      ]
+    }
+  ]
+}

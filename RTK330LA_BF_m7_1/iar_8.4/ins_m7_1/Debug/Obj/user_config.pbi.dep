@@ -1,0 +1,20 @@
+user_config.pbi: \
+  C:\Users\lihuan\Desktop\ublox-dual-0614\ins402\RTK330LA_BF_m7_1\platform\Core\configuration\user_config.c \
+  D:\software\IAR\arm\inc\c\string.h D:\software\IAR\arm\inc\c\ycheck.h \
+  D:\software\IAR\arm\inc\c\yvals.h \
+  D:\software\IAR\arm\inc\c\DLib_Defaults.h \
+  D:\\software\\IAR\\arm\\inc\\c\\DLib_Config_Normal.h \
+  D:\software\IAR\arm\inc\c\DLib_Product.h \
+  D:\software\IAR\arm\inc\c\ysizet.h \
+  D:\software\IAR\arm\inc\c\DLib_Product_string.h \
+  C:\Users\lihuan\Desktop\ublox-dual-0614\ins402\RTK330LA_BF_m7_1\iar_8.4\ins_m7_1\..\..\app\include\app_version.h \
+  C:\Users\lihuan\Desktop\ublox-dual-0614\ins402\RTK330LA_BF_m7_1\iar_8.4\ins_m7_1\..\..\platform\BSP\eeprom\eepromAPI.h \
+  C:\Users\lihuan\Desktop\ublox-dual-0614\ins402\RTK330LA_BF_m7_1\platform\Core\configuration/user_config.h \
+  D:\software\IAR\arm\inc\c\stdint.h \
+  C:\Users\lihuan\Desktop\ublox-dual-0614\ins402\RTK330LA_BF_m7_1\iar_8.4\ins_m7_1\..\..\platform\utility\include\constants.h \
+  C:\Users\lihuan\Desktop\ublox-dual-0614\ins402\RTK330LA_BF_m7_1\iar_8.4\ins_m7_1\..\..\platform\utility\include\typedefs.h \
+  C:\Users\lihuan\Desktop\ublox-dual-0614\ins402\RTK330LA_BF_m7_1\iar_8.4\ins_m7_1\..\..\platform\utility\include\crc16.h \
+  C:\Users\lihuan\Desktop\ublox-dual-0614\ins402\RTK330LA_BF_m7_1\iar_8.4\ins_m7_1\..\..\ins\ins_interface_API.h \
+  D:\software\IAR\arm\inc\c\stdlib.h \
+  D:\software\IAR\arm\inc\c\DLib_Product_stdlib.h \
+  C:\Users\lihuan\Desktop\ublox-dual-0614\ins402\RTK330LA_BF_m7_1\iar_8.4\ins_m7_1\..\..\ins\include\fw_ins.h

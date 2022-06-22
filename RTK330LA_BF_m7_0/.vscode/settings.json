@@ -1,0 +1,8 @@
+
+{
+    "iar.enabled": true,
+    "files.associations": {
+        "m7_ipc.h": "c",
+        "rtkcmn.h": "c"
+    }
+}

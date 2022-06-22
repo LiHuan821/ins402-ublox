@@ -1,0 +1,15 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3 EWARM FS 8.40.3\arm\bin\armproc.dll" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3 EWARM FS 8.40.3\arm\bin\armJET.dll" 
+
+"C:\gitlab\1027\ins401\RTK330LA_BF_m7_0\iar_8.4\rtk_ins\Debug\Exe\rtk.hex" 
+
+--plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3 EWARM FS 8.40.3\arm\bin\armbat.dll" 
+
+--device_macro="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3 EWARM FS 8.40.3\arm\config\debugger\Cypress\CYTVII_M7.dmac" 
+
+--flash_loader="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3 EWARM FS 8.40.3\arm\config\flashloader\Cypress\FlashCYT4_CF8M_WF256K_CM7.board" 
+
+
+
+

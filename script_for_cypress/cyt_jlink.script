@@ -1,0 +1,13 @@
+si 1 
+speed 4000
+device CYT4BFBCHD_M0
+
+r
+h
+
+loadbin ./rtk_ins.bin 0x10080000
+
+r
+g
+
+exit

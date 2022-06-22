@@ -1,0 +1,22 @@
+
+{
+    "iar.enabled": true,
+    "files.associations": {
+        "ethernet.h": "c",
+        "time_ref.h": "c",
+        "uart.h": "c",
+        "timer.h": "c",
+        "imu330za.h": "c",
+        "user_message.h": "c",
+        "eeprom.h": "c",
+        "taskins.h": "c",
+        "eepromapi.h": "c",
+        "eth_process.h": "c",
+        "fw_ins.h": "c",
+        "share_memory.h": "c",
+        "sta9100_upgrade.h": "c",
+        "ublox_decoder.h": "c",
+        "ins_interface_api.h": "c",
+        "maintain_ins.h": "c"
+    }
+}

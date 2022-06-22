@@ -1,0 +1,15 @@
+"D:\software\IAR\arm\bin\armproc.dll" 
+
+"D:\software\IAR\arm\bin\armJET.dll" 
+
+"C:\Users\lihuan\Desktop\ublox-dual-0614\ins402\RTK330LA_BF_m7_1\iar_8.4\ins_m7_1\Debug\Exe\ins.hex" 
+
+--plugin="D:\software\IAR\arm\bin\armbat.dll" 
+
+--device_macro="D:\software\IAR\arm\config\debugger\Cypress\CYTVII_M7.dmac" 
+
+--flash_loader="D:\software\IAR\arm\config\flashloader\Cypress\FlashCYT4_CF8M_WF256K_CM7.board" 
+
+
+
+

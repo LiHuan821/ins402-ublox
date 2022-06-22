@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iarUserArgVars>
+    <group name="CUSTOM_VARS" active="true">
+        <variable>
+            <name>COMPILE_TIME</name>
+            <value>2021-10-26 13:45:37</value>
+        </variable>
+        <variable>
+            <name>COMPILE_AUTHOR</name>
+            <value>vmdaichenghe</value>
+        </variable>
+        <variable>
+            <name>APP_VERSION</name>
+            <value>v1.0</value>
+        </variable>
+        <variable>
+            <name>GIT_COMMIT</name>
+            <value>3a861d</value>
+        </variable>
+    </group>
+</iarUserArgVars>

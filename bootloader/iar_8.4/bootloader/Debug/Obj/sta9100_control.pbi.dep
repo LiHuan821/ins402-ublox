@@ -1,0 +1,4 @@
+sta9100_control.pbi: \
+  D:\Develop\INS402\ins402\bootloader\platform\sta9100\sta9100_control.c \
+  D:\Develop\INS402\ins402\bootloader\iar_8.4\bootloader\..\..\app\include\cy_project.h \
+  D:\Develop\INS402\ins402\bootloader\iar_8.4\bootloader\..\..\platform\CYT4BF\hal_common\syslib/cy_syslib.h

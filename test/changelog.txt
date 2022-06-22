@@ -1,0 +1,44 @@
+GNSS firmware change log
+-----------------------------------------------------------------------------
+> 2021/12/18 Writed by Xuanxuan Hu
+             update rtk lib 1.02.03, open st teseoV E2E functions, close sigqm2.
+> 2022/02/16 Writed by Xuanxuan Hu
+             Update rtk lib 1.02.04.
+			 Fix bug on ambiguity resolution, code measurement update & variance model.
+> 2022/02/18 Writed by Xuanxuan Hu
+             Update rtk lib 1.02.05.
+			 Fix bug on SPP standard deviation.
+			 
+> ...			 			 
+
+
+INS firmware change log
+-----------------------------------------------------------------------------
+> 2022/02/21 Writed by Mingjin Yu
+             Update ins lib 1.1.3.
+			 Add SPP_INS_ENABLE to use SPP/INS.
+			 
+			 
+
+Firmware change log
+-----------------------------------------------------------------------------
+> v28.02.01 2022/1/7 15:03:43 add gnss solution integrity("gI") packet 
+
+> v28.02.02 2022/1/10 16:24:40 gnss integrity"gI" packet modify
+
+> v28.02.03 2022/2/14 17:52:00 
+	Fix phy initial when power fd reset.
+	Fix STA9100 upgrade, change to 115200.
+	Add func safety.
+	
+> v28.02.04 2022/2/14 12:53:43 (back and remove 02.03func safety)
+
+> v28.02.05 2022/2/18 15:50:50 (back) 
+	use rtk lib 1.02.04.
+	
+> v28.02.06 2022/2/18 15:55:40 (back)
+	use rtk lib 1.02.05.
+	
+> v28.02.07 (back)
+	use ins lib 1.1.3.  support SPP/INS
+	

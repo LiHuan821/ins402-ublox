@@ -1,0 +1,74 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build_publish",
+            "type": "shell",
+            "command": "python iar_compile.py",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "cd iar_8.4/ins_m7_1 | IarBuild.exe ins.ewp -build Debug -parallel 4 -varfile ../ins.custom_argvars",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "make",
+            "type": "shell",
+            "command": "cd iar_8.4/ins_m7_1 | IarBuild.exe ins.ewp -make Debug -parallel 4 -varfile ../ins.custom_argvars",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "upload",
+            "type": "shell",
+            "command": "jlink.exe cyt_jlink.script",
+            "problemMatcher": [],
+            "group": "upload"
+        },
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "./clean.bat",
+            "problemMatcher": [],
+            "group": "clean"
+        },
+        {
+            "label": "make all",
+            "type": "shell",
+            "command": "cd ./build | make all -j8",
+            "problemMatcher": [],
+            "group": "build"
+        },
+        {
+            "label": "upload make",
+            "type": "shell",
+            "command": "jlink.exe cyt_jlink_make.script",
+            "problemMatcher": [],
+            "group": "upload"
+        },
+        {
+            "label": "i_jet_upload",
+            "type": "shell",
+            "command": "python ../i-jet/cyt_jet_upload.py ./iar_8.4/ins_m7_1/Debug/Exe/ins.hex",
+            "problemMatcher": [],
+            "group": "upload"
+        }
+
+    ]
+
+}

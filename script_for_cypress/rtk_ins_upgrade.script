@@ -1,0 +1,15 @@
+si 1
+speed 4000
+device CYT4BFBCHD_M0
+
+r
+h
+
+loadbin ./bootloader.bin 0x10000000
+loadbin ./rtk_ins.bin 0x10080000
+loadbin ./rtk_ins.bin 0x10280000
+
+r
+g
+
+exit

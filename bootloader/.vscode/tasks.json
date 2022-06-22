@@ -1,0 +1,60 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "cd iar_8.4/bootloader | IarBuild.exe bootloader.ewp -build Debug",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "make",
+            "type": "shell",
+            "command": "cd iar_8.4/bootloader | IarBuild.exe bootloader.ewp -make Debug",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "upload",
+            "type": "shell",
+            "command": "jlink.exe cyt_jlink.script",
+            "problemMatcher": [],
+            "group": "upload"
+        },
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "./clean.bat",
+            "problemMatcher": [],
+            "group": "clean"
+        },
+        {
+            "label": "Jlink GDB Server",
+            "type": "process",
+            "command": "./.vscode/jlink_start.cmd",
+            "args": ["CYT4BFBCHD"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "i_jet_upload",
+            "type": "shell",
+            "command": "python ../i-jet/cyt_jet_upload.py ./iar_8.4/bootloader/Debug/Exe/bootloader.hex",
+            "problemMatcher": [],
+            "group": "upload"
+        }
+    ]
+
+}
